@@ -18,8 +18,8 @@ namespace threeDS.Content.Items.Weapons
 			Item.value = Item.sellPrice(gold: 40); // The number and type of coins item can be sold for to an NPC
 
             
-            Item.width = 54;
-            Item.height = 54;
+            Item.width = 116;
+            Item.height = 116;
 
 			// Use Properties
 			Item.useStyle = ItemUseStyleID.Shoot; // How you use the item (swinging, holding out, etc.)

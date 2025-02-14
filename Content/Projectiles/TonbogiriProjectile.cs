@@ -8,8 +8,8 @@ namespace threeDS.Content.Projectiles
 	public class TonbogiriProjectile : ModProjectile
 	{
 		// Define the range of the Spear Projectile. These are overridable properties, in case you'll want to make a class inheriting from this one.
-		protected virtual float HoldoutRangeMin => 24f;
-		protected virtual float HoldoutRangeMax => 96f;
+		protected virtual float HoldoutRangeMin => 60f;
+		protected virtual float HoldoutRangeMax => 150f;
 
 		public override void SetDefaults() {
 			Projectile.CloneDefaults(ProjectileID.Spear); // Clone the default values for a vanilla spear. Spear specific values set for width, height, aiStyle, friendly, penetrate, tileCollide, scale, hide, ownerHitCheck, and melee.
