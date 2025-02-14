@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UrNLz+uTOOo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kttci\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\threeDS\\threeDS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kttci\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}

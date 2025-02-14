@@ -1,0 +1,3 @@
+displayName = 3DS Exclusives
+author = bonkerschungles
+version = 0.1

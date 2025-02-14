@@ -1,0 +1,19 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	Tizona: {
+		DisplayName: Tizona
+		Tooltip: Has a chance to cause Bleeding
+	}
+
+	Tonbogiri: {
+		DisplayName: Tonbogiri
+		Tooltip:
+			'''
+			A legendary Japanese 
+			spear coated in venom
+			'''
+	}
+}
+
+Projectiles.TonbogiriProjectile.DisplayName: Tonbogiri Projectile
