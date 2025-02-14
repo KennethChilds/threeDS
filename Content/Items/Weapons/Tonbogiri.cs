@@ -41,11 +41,6 @@ namespace threeDS.Content.Items.Weapons
 			Item.noUseGraphic = true; // The item should not be visible when used
 		}
 
-        public override void OnHitNPC(Player player, NPC target, NPC.HitInfo hit, int damageDone) 
-		{
-            target.AddBuff(BuffID.Poisoned, 60 * 12);
-        }
-
 		public override bool CanUseItem(Player player) {
 			// Ensures no more than one spear can be thrown out, use this when using autoReuse
 			return player.ownedProjectileCounts[Item.shoot] < 1;
