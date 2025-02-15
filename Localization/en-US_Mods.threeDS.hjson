@@ -30,22 +30,23 @@ Items: {
 	}
 
 	HeartArrow: {
-			DisplayName: Heart Arrow
-			Tooltip:
-				'''
-				Legendary arrows from 
-				cupid himself, stuns 
-				enemies on hit
-				'''
-		}
-
-	SoulofBlight: {
-		DisplayName: Soul of Blight
+		DisplayName: Heart Arrow
 		Tooltip:
 			'''
-			The essence of infected 
-			creatures
+			Legendary arrows from 
+			cupid himself, stuns 
+			enemies on hit
 			'''
+	}
+
+	VulcanBolt: {
+		DisplayName: Vulcan Bolt
+		Tooltip: ""
+	}
+
+	SoulofBlight: {
+		DisplayName: Soulof Blight
+		Tooltip: ""
 	}
 }
 
@@ -53,6 +54,7 @@ Projectiles: {
 	TonbogiriProjectile.DisplayName: Tonbogiri Projectile
 	SpectralArrowProjectile.DisplayName: Spectral Arrow Projectile
 	HeartArrowProjectile.DisplayName: Heart Arrow Projectile
+	VulcanBoltProjectile.DisplayName: Vulcan Bolt Projectile
 }
 
 Buffs: {
