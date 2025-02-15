@@ -24,6 +24,15 @@ Items: {
 			'''
 	}
 
+	VulcanRepeater: {
+		DisplayName: Vulcan Repeater
+		Tooltip:
+			'''
+			Transforms any suitable
+			ammo into Vulcan Bolts
+			'''
+	}
+
 	SpectralArrow: {
 		DisplayName: Spectral Arrow
 		Tooltip: ""
