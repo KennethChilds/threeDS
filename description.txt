@@ -1,1 +1,7 @@
-Bring the 3DS Exclusives Back Into Your World!
+threeDS (beta) brings the 3DS version of Terraria and its Exclusives back into your world!
+
+- old weapons
+- old projectiles
+- old buffs
+
+Bosses and remaining items will be added shortly.
