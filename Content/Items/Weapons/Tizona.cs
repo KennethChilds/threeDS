@@ -37,7 +37,7 @@ namespace threeDS.Content.Items.Weapons
 			CreateRecipe()
 				.AddIngredient(ItemID.Excalibur)
 				// TODO: CHANGE TO SOUL OF BLIGHT
-				.AddIngredient(ItemID.SoulofNight, 15)
+				.AddIngredient<Content.Items.SoulofBlight>(15)
 				.AddIngredient(ItemID.AdamantiteBar, 15)
 				.AddTile(TileID.MythrilAnvil)
 				.Register();
@@ -45,7 +45,7 @@ namespace threeDS.Content.Items.Weapons
 			CreateRecipe()
 				.AddIngredient(ItemID.Excalibur)
 				// TODO: CHANGE TO SOUL OF BLIGHT
-				.AddIngredient(ItemID.SoulofNight, 15)
+				.AddIngredient<Content.Items.SoulofBlight>(15)
 				.AddIngredient(ItemID.TitaniumBar, 15)
 				.AddTile(TileID.MythrilAnvil)
 				.Register();
