@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("threeDS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d31b9b473c5c214d1abeb3f98baf60233f64350e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8e83eb2f1ba58cfdaed248a9fe838544f8d3647b")]
 [assembly: System.Reflection.AssemblyProductAttribute("threeDS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("threeDS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

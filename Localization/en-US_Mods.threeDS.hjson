@@ -15,6 +15,15 @@ Items: {
 			'''
 	}
 
+	Sharanga: {
+		DisplayName: Sharanga
+		Tooltip:
+			'''
+			Transforms any suitable
+			ammo into Spectral Arrows
+			'''
+	}
+
 	SoulofBlight: {
 		DisplayName: Soul of Blight
 		Tooltip:
