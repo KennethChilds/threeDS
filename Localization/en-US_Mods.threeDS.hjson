@@ -33,6 +33,11 @@ Items: {
 			'''
 	}
 
+	Zapinator: {
+		DisplayName: Zapinator
+		Tooltip: ""
+	}
+
 	SpectralArrow: {
 		DisplayName: Spectral Arrow
 		Tooltip: ""
