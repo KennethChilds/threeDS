@@ -36,7 +36,6 @@ namespace threeDS.Content.Items.Weapons
 			Item.noMelee = true; // So the item's animation doesn't do damage.
 
 			// Gun Properties
-            // TODO : MAKE THIS TURN ANY ARROW INTO SPECTRAL ARROW (ALSO ADD SPECTRAL ARROWS)
 			Item.shoot = ModContent.ProjectileType<Projectiles.SpectralArrowProjectile>(); // For some reason, all the guns in the vanilla source have this.
 			Item.shootSpeed = 10f; // The speed of the projectile (measured in pixels per frame.) This value equivalent to Handgun
 			Item.useAmmo = AmmoID.Arrow; // The "ammo Id" of the ammo item that this weapon uses. Ammo IDs are magic numbers that usually correspond to the item id of one item that most commonly represent the ammo type.

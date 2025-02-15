@@ -37,7 +37,6 @@ namespace threeDS.Content.Items.Weapons
 			Item.noMelee = true; // So the item's animation doesn't do damage.
 
 			// Gun Properties
-            // TODO : MAKE THIS TURN ANY ARROW INTO SPECTRAL ARROW (ALSO ADD SPECTRAL ARROWS)
 			Item.shoot = ProjectileID.GreenLaser; // For some reason, all the guns in the vanilla source have this.
 			Item.shootSpeed = 12f; // The speed of the projectile (measured in pixels per frame.) This value equivalent to Handgun
 			Item.mana = 4; // Add mana cost per shot
