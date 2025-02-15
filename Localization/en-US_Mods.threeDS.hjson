@@ -29,6 +29,16 @@ Items: {
 		Tooltip: ""
 	}
 
+	HeartArrow: {
+			DisplayName: Heart Arrow
+			Tooltip:
+				'''
+				Legendary arrows from 
+				cupid himself, stuns 
+				enemies on hit
+				'''
+		}
+
 	SoulofBlight: {
 		DisplayName: Soul of Blight
 		Tooltip:
@@ -42,4 +52,12 @@ Items: {
 Projectiles: {
 	TonbogiriProjectile.DisplayName: Tonbogiri Projectile
 	SpectralArrowProjectile.DisplayName: Spectral Arrow Projectile
+	HeartArrowProjectile.DisplayName: Heart Arrow Projectile
+}
+
+Buffs: {
+	Stunned: {
+		DisplayName: Stunned
+		Description: Mods.threeDS.Buffs.Stunned.Description
+	}
 }
