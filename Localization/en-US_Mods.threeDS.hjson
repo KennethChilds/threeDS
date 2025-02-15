@@ -24,6 +24,11 @@ Items: {
 			'''
 	}
 
+	SpectralArrow: {
+		DisplayName: Spectral Arrow
+		Tooltip: ""
+	}
+
 	SoulofBlight: {
 		DisplayName: Soul of Blight
 		Tooltip:
@@ -34,4 +39,7 @@ Items: {
 	}
 }
 
-Projectiles.TonbogiriProjectile.DisplayName: Tonbogiri Projectile
+Projectiles: {
+	TonbogiriProjectile.DisplayName: Tonbogiri Projectile
+	SpectralArrowProjectile.DisplayName: Spectral Arrow Projectile
+}
