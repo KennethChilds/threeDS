@@ -20,7 +20,7 @@ namespace threeDS.Content.Items.Weapons
 			Item.useAnimation = 25;
 			Item.useStyle = ItemUseStyleID.Swing;
 			Item.knockBack = 4;
-			Item.value = Item.buyPrice(gold: 6);
+			Item.value = Item.sellPrice(gold: 6);
 			Item.rare = ItemRarityID.Pink;
 			Item.UseSound = SoundID.Item1;
 			Item.autoReuse = true;

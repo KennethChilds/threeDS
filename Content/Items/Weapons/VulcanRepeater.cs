@@ -18,7 +18,7 @@ namespace threeDS.Content.Items.Weapons
 			Item.height = 20; // Hitbox height of the item.
 			Item.scale = 1f;
 			Item.rare = ItemRarityID.Pink; // The color that the item's name will be in-game.
-            Item.value = Item.buyPrice(gold: 5);
+            Item.value = Item.sellPrice(gold: 5);
 
 			// Use Properties
 			Item.useTime = 17; // The item's use time in ticks (60 ticks == 1 second.)
