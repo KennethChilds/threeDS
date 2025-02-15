@@ -33,7 +33,7 @@ namespace threeDS.Content.Items.Ammo
 			CreateRecipe(15)
 				.AddIngredient(ItemID.WoodenArrow, 15)
 				.AddIngredient<Content.Items.SoulofBlight>(1)
-				.AddTile(TileID.Anvils)
+				.AddTile(TileID.WorkBenches)
 				.Register();
         }
 	}
