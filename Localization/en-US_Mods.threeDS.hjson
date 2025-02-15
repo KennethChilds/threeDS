@@ -38,6 +38,11 @@ Items: {
 		Tooltip: ""
 	}
 
+	RomanCandle: {
+		DisplayName: Roman Candle
+		Tooltip: Fire Works!
+	}
+
 	SpectralArrow: {
 		DisplayName: Spectral Arrow
 		Tooltip: ""
