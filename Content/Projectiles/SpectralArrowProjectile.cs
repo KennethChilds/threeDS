@@ -39,7 +39,7 @@ namespace threeDS.Content.Projectiles
 			Projectile.ai[0] += 1f;
 			if (Projectile.ai[0] >= 15f) {
 				Projectile.ai[0] = 15f;
-				Projectile.velocity.Y += 0.5f;
+				Projectile.velocity.Y += 0.1f;
 			}
 
 			// The projectile is rotated to face the direction of travel
