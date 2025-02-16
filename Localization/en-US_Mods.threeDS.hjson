@@ -74,6 +74,7 @@ Projectiles: {
 	SpectralArrowProjectile.DisplayName: Spectral Arrow Projectile
 	HeartArrowProjectile.DisplayName: Heart Arrow Projectile
 	VulcanBoltProjectile.DisplayName: Vulcan Bolt Projectile
+	RomanCandleProjectile.DisplayName: Roman Candle Projectile
 }
 
 Buffs: {

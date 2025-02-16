@@ -19,7 +19,7 @@ namespace threeDS.Content.Items.Weapons
 			Item.scale = .75f;
 			Item.rare = ItemRarityID.Pink; // The color that the item's name will be in-game.
 			Item.value = Item.sellPrice(gold: 1);
-            Item.DefaultToMagicWeapon(ProjectileID.RocketFireworkBlue, singleShotTime: 7, 12f, hasAutoReuse: true); 
+            Item.DefaultToMagicWeapon(ModContent.ProjectileType<Projectiles.RomanCandleProjectile>(), singleShotTime: 7, 12f, hasAutoReuse: false); 
 
 			// Use Properties
 			Item.useTime = 12; // The item's use time in ticks (60 ticks == 1 second.)
@@ -27,7 +27,7 @@ namespace threeDS.Content.Items.Weapons
             Item.reuseDelay = 14;
 			Item.consumeAmmoOnLastShotOnly = true;
 			Item.useStyle = ItemUseStyleID.Shoot; // How you use the item (swinging, holding out, etc.)
-			Item.autoReuse = true; // Whether or not you can hold click to automatically use it again.
+			Item.autoReuse = false; // Whether or not you can hold click to automatically use it again.
 
 			// The sound that this item plays when used.
 			Item.UseSound = SoundID.Item14;
@@ -39,7 +39,7 @@ namespace threeDS.Content.Items.Weapons
 			Item.noMelee = true; // So the item's animation doesn't do damage.
 
 			// Gun Properties
-			Item.shoot = ProjectileID.RocketFireworkBlue; // For some reason, all the guns in the vanilla source have this.
+			Item.shoot = Item.shoot = ModContent.ProjectileType<Projectiles.RomanCandleProjectile>(); // For some reason, all the guns in the vanilla source have this.
 			Item.shootSpeed = 12f; // The speed of the projectile (measured in pixels per frame.) This value equivalent to Handgun
 			Item.mana = 5; // Add mana cost per shot
 		}
@@ -100,13 +100,13 @@ namespace threeDS.Content.Items.Weapons
 
 		// How can I make the shots appear out of the muzzle exactly?
 		// Also, when I do this, how do I prevent shooting through tiles?
-		/*public override void ModifyShootStats(Player player, ref Vector2 position, ref Vector2 velocity, ref int type, ref int damage, ref float knockback) {
+		public override void ModifyShootStats(Player player, ref Vector2 position, ref Vector2 velocity, ref int type, ref int damage, ref float knockback) {
 			Vector2 muzzleOffset = Vector2.Normalize(velocity) * 25f;
 
 			if (Collision.CanHit(position, 0, 0, position + muzzleOffset, 0, 0)) {
 				position += muzzleOffset;
 			}
-		}*/
+		}
 
 		// How can I get a "Clockwork Assault Rifle" effect?
 		// 3 round burst, only consume 1 ammo for burst. Delay between bursts, use reuseDelay
