@@ -1,7 +1,27 @@
 threeDS (beta) brings the 3DS version of Terraria and its Exclusives back into your world!
 
-- old weapons
-- old projectiles
-- old buffs
+Current weapons added:
+- Tizona
+- Tonbogiri
+- Sharanga
+- Vulcan Repeater
+- Zapinator
+- Roman Candle
+
+Current ammo added:
+- Spectral Arrow
+- Heart Arrow (stuns enemies on hit)
+- Vulcan Bolt
+
+Current buffs added:
+- Stunned (prevents enemy movement, applied when Heart Arrow hits enemy)
+
+Current materials added:
+- Soul of Blight
 
 Bosses and remaining items will be added shortly.
+
+Notes: 
+- Soul of Blight currently needs to be crafted
+- Roman Candle projectile is inaccurate
+- Weapon sizes might need to be tweaked
