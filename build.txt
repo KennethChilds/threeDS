@@ -1,3 +1,3 @@
 displayName = threeDS
 author = bonkerschungles
-version = 0.3
+version = 0.3.1
